@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="Gallery.css">
+
+    <title>Gallery</title>
+    <style>
+       
+
+        .nav-link {
+            color: #808080;
+            font-weight: 28px;
+            font-size: 22px;
+        }
+
+            .nav-link:hover {
+                color: white;
+                background-color: #ddd;
+                border-radius: 26px 5px;
+            }
+
+        .bg-dark1 {
+            background: #343a40 !important;
+        }
+        .active {
+            background-color: #117a8b;
+            color: white;
+            text-align: center;
+            border-radius: 27px 5px;
+        }
+
+            .active:hover {
+                background-color: transparent !important;
+            }
+
+        .sign {
+            background-color: blue;
+            border-radius: 28px 5px;
+            color: #fff;
+            padding: 10px;
+            margin: 1px;
+        }
+
+        .fa-bars {
+            font-size: 30px;
+        }
+
+        .item {
+            background-color: #787878;
+        }
+    </style>
+</head>
+<body>
+    
+  
+    <nav class="navbar sticky-top navbar-expand-sm bg-dark">
+        <a class="navbar-brand" href="#"><img src="pica.png" width="60" height="50"></a>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="demopr.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <span class="sign btn" data-toggle="modal" data-target="#myModal">SignUp</span>
+        <span class="sign btn" data-toggle="modal" data-target="#myModal">SignUp</span>
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>SignUp</h3>
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label>Email</label><br>
+                            <input type="text" class="form-control"><br>
+                            <label>Password</label><br>
+                            <input type="password" class="form-control">
+
+                            <button type="submit" class="btn bg-success">Submit</button>
+                            <button class="btn bg-success" data-dismiss="modal">Close</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+ 
+
+      <div class="owl-carousel owl-theme m-4">
+          <div class="item m-4">
+            <img class="owl-lazy" width="350" height="350">
+          </div>
+          <div class="item m-4">
+            <img class="owl-lazy" width="350" height="350">
+          </div>
+          <div class="item m-4">
+            <img class="owl-lazy" width="350" height="350">
+          </div>
+          <div class="item m-4">
+            <img class="owl-lazy" width="350" height="350">
+          </div>
+          <div class="item m-4">
+            <img class="owl-lazy" width="350" height="350">
+          </div>
+          <div class="item m-4">
+            <img class="owl-lazy" width="350" height="350">
+          </div>
+      </div>
+
+      
+
+
+      <footer class=" page-footer font-small bg-dark text-white pt-4">
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left mt-3 pb-3">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="mb-4 font-weight-bold">COMPANY NAME</h6>
+              <p>
+                Here you can use rows and columns to organize your footer content.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+    
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="mb-4 font-weight-bold">PRODUCTS</h6>
+              <a class="text-white text-center" href="#">MD Bootstrap</a><br>
+              <a class="text-white" href="#">MD WordPress</a><br>
+              <a class="text-white" href="#">Brandflow</a><br>
+              <a class="text-white" href="#">Bootstrap</a><br>
+              <a class="text-white" href="#">Angular</a>
+            </div>
+    
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="mb-4 font-weight-bold">USEFUL LINKS</h6>
+              <a class="text-white text-center" href="#">Your Account</a><br>
+              <a class="text-white" href="#">Become an Affiliate</a><br>
+              <a class="text-white" href="#">Shipping rates</a><br>
+              <a class="text-white" href="#">Help</a>
+            </div>
+    
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="mb-4 font-weight-bold">CONTACT</h6>
+              <p><i class="fa fa-home mr-3">&nbsp;</i>New York, NY 10012, US</p>
+              <p><i class="fa fa-envelope mr-3">&nbsp;</i>info@gmail.com</p>
+              <p><i class="fa fa-phone mr-3">&nbsp;</i>+01 234 567 88</p>
+              <p><i class="fa fa-print mr-3">&nbsp;</i>+01 234 567 89</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row d-flex align-items-center">
+            <div class="col-md-7 col-lg-8">
+              <p class="text-center text-md-left">&copy; 2020 Copyright:
+                <a class="text-white" href="#"><b>MDBootstrap.com</b></a>
+              </p>
+            </div>
+            <div class="col-md-5 col-lg-4">
+              <a href="https://www.facebook.com/"><i class="fa fa-facebook-f p-2"></i></a>
+              <i class="fa fa-twitter p-3"></i>
+              <i class="fa fa-google-plus p-2"></i>
+              <i class="fa fa-linkedin p-2"></i>
+             </div>
+          </div>
+        </div>
+      </footer>
+
+    
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
